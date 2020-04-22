@@ -1,16 +1,19 @@
 :root {
   --black: #0d0d0d;
-  --red: #ff2d2b;
+  --pink: #FF1493
+  ;
 }
 
 .scoreboard {
   width: 58%;
   margin: 2rem auto;
-  background-color: #9400D3;
-  color: white;
+  background-color: #800080
+  ;
+  color: #FFC0CB;
   border-radius: 0.5rem;
   padding: 5rem;
-  border: 4px solid #FF1493;
+  border: 4px solid #E6E6FA
+  ;
 }
 
 .topRow {
@@ -58,7 +61,7 @@
   width: 90%;
   text-align: center;
   background-color: var(--black);
-  color: var(--red);
+  color: var(--pink);
   padding: 5%;
 }
 
@@ -95,7 +98,7 @@
 .quarter__value {
   font-family: "Ozone";
   font-size: 5rem;
-  color: var(--red);
+  color: var(--pink);
   width: 7rem;
   text-align: center;
   background-color: var(--black);
